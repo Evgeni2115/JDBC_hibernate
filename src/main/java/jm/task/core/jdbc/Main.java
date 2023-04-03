@@ -15,7 +15,5 @@ public class Main {
         userService.saveUser("Евгений", "Решетников", (byte) 15);
         userService.saveUser("Семен", "Мурашов", (byte) 15);
         userService.removeUserById(1);
-        Util.closeConnection();
-
     }
 }
