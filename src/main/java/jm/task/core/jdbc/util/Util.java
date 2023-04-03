@@ -36,16 +36,4 @@ public class Util {
     }
 
 }
-/*
-  public static Connection getConnection() {
-        Connection connection = null;
-        try {
-            Class.forName(DB_DRIVER);
-            connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
-            System.out.println("все гучи");
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
-            System.out.println("Ну ты дурак что ли?");
-        }
-        return connection;
-    }  */
+
